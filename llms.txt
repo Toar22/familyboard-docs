@@ -1,0 +1,34 @@
+# FamilyBoard
+
+> FamilyBoard (familyboard.cloud) is a Norwegian family dashboard and digital photo frame. It shows family photos (from Immich or direct upload) together with Google Calendar, Yr weather, a clock and Ruter public-transport departures on a TV, iPad, tablet or Raspberry Pi. The user interface is in Norwegian. Users are typically non-technical parents.
+
+When helping a FamilyBoard user: answer in the user's language, ask which step they are stuck on and the exact error message, use the exact Norwegian button labels from these docs, and never invent features. Do not ask users for passwords or API keys in chat. Support: support@familyboard.cloud
+
+## Start here
+
+- [AI instructions](https://github.com/Toar22/familyboard-docs/blob/main/AI-INSTRUCTIONS.md): How AI assistants should guide users, common misunderstandings, when to refer to support
+- [Overview](https://github.com/Toar22/familyboard-docs/blob/main/README.md): What FamilyBoard is and what it can show
+
+## Getting started
+
+- [Sign up](https://github.com/Toar22/familyboard-docs/blob/main/getting-started/signup.md): Account creation, email verification, password rules, forgot password
+- [Setup wizard](https://github.com/Toar22/familyboard-docs/blob/main/getting-started/wizard.md): Every step of the «Kom i gang» wizard (calendar, location, Ruter, photo source, Immich setup) with messages and fixes
+
+## Photos
+
+- [Immich](https://github.com/Toar22/familyboard-docs/blob/main/photos/immich.md): FamilyBoard-hosted Immich storage (same password as FamilyBoard) or bring-your-own Immich server with API key; photo filters
+- [Upload](https://github.com/Toar22/familyboard-docs/blob/main/photos/upload.md): Uploading single photos, folders and ZIP files in the browser
+- [Mobile app](https://github.com/Toar22/familyboard-docs/blob/main/photos/mobile-app.md): Automatic phone backup with the Immich app
+
+## Devices
+
+- [Display URLs](https://github.com/Toar22/familyboard-docs/blob/main/devices/display-urls.md): Public read-only viewing links used by screens
+- [iPad, tablets and TV](https://github.com/Toar22/familyboard-docs/blob/main/devices/ipad-and-tv.md): Home-screen shortcut, Guided Access, Smart TV browsers
+- [Raspberry Pi](https://github.com/Toar22/familyboard-docs/blob/main/devices/raspberry-pi.md): Always-on kiosk screen, pre-configured or DIY
+
+## Reference
+
+- [Settings](https://github.com/Toar22/familyboard-docs/blob/main/settings.md): The «Administrasjon» settings panel and the profile page
+- [Plans and billing](https://github.com/Toar22/familyboard-docs/blob/main/plans-and-billing.md): Gratis, Pro, Pro+, Max
+- [Troubleshooting](https://github.com/Toar22/familyboard-docs/blob/main/troubleshooting.md): Default image only, calendar not showing, Immich connection errors, payment issues
+- [FAQ](https://github.com/Toar22/familyboard-docs/blob/main/faq.md)
