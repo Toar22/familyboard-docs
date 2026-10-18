@@ -111,6 +111,18 @@ Se alle filtrene i [photos/immich.md – Bildefiltre](photos/immich.md#bildefilt
 
 På bursdagen viser skjermen bare bilder av bursdagsbarnet, fra hele biblioteket. Det blir fort et samtaleemne.
 
+### En hyllest i stedet for en gave
+Når man kommer i en viss alder, slutter man ofte å gi bursdagsgaver til voksne. Hva gir man egentlig til bestemor,
+en tante eller en god venn som bor i en annen by?
+
+Med bursdagsfunksjonen står de i sentrum **hjemme hos dere en hel dag**: gamle og nye bilder av dem, fra turer, høytider
+og hverdager dere har delt. Det er en liten, personlig hyllest som ikke koster noe.
+
+Ta gjerne et bilde eller en kort video av skjermen og send til bursdagsbarnet: *«I dag er det deg vi ser på hele dagen. Gratulerer!»*
+
+**Slik får du det til:** Legg inn navn og fødselsdato på besteforeldre, tanter, onkler, søsken og venner i Immich,
+ikke bare på de nærmeste. Jo flere, jo oftere blir det en slik dag.
+
 > Personer må være navngitt i Immich for å kunne velges i filtrene og for at bursdagsfunksjonen skal virke.
 
 ---
