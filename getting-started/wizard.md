@@ -46,7 +46,7 @@ Veiviseren har også en knapp: **«Åpne Google Kalender embed-hjelp →»**.
   Google viser bare innebygde kalendere for innloggede brukere med tilgang, eller hvis
   kalenderen er gjort offentlig (Innstillinger → kalenderen → «Tilgangstillatelser for aktiviteter»
   → «Gjør tilgjengelig for offentligheten»). Gjør brukeren oppmerksom på at offentlig betyr at alle
-  med lenken kan se avtalene. Et alternativ er å vise bare «ledig/opptatt».
+  med lenken kan se avtalene. Alternativet er å logge inn på Google i nettleseren på skjermen (f.eks. Chromium på Raspberry Pi), så vises private kalendere for den kontoen.
 - **Flere kalendere (familiemedlemmer):** Bruk Googles embed-hjelp (lenken over) til å lage én
   embed-kode som viser flere kalendere samtidig, og lim den inn.
 - **Bruker har iCloud- eller Outlook-kalender:** Veiviseren støtter Google Kalender-embed.

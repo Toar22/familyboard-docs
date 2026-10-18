@@ -13,6 +13,7 @@ When helping a FamilyBoard user: answer in the user's language, ask which step t
 
 - [Sign up](https://github.com/Toar22/familyboard-docs/blob/main/getting-started/signup.md): Account creation, email verification, password rules, forgot password
 - [Setup wizard](https://github.com/Toar22/familyboard-docs/blob/main/getting-started/wizard.md): Every step of the «Kom i gang» wizard (calendar, location, Ruter, photo source, Immich setup) with messages and fixes
+- [Best practices](https://github.com/Toar22/familyboard-docs/blob/main/best-practices.md): Recommended setup — one shared family Google Calendar (incl. Spond, school, kindergarten), whole family on Immich, hiding unwanted photos, birthdays, sharing albums with grandparents, design mode
 
 ## Photos
 

@@ -24,6 +24,7 @@ på en TV, iPad, nettbrett eller Raspberry Pi-skjerm, for eksempel på kjøkkene
 2. Følg [oppsettsveiviseren](getting-started/wizard.md) (ca. 2 minutter)
 3. [Legg inn bilder](photos/), enten med Immich-appen på mobilen eller ved opplasting
 4. [Vis dashboardet på en skjerm](devices/), for eksempel iPad, TV eller Raspberry Pi
+5. Les [anbefalt oppsett](best-practices.md) for å få mest mulig ut av skjermen
 
 ## Innhold
 
@@ -32,6 +33,7 @@ på en TV, iPad, nettbrett eller Raspberry Pi-skjerm, for eksempel på kjøkkene
 | [AI-INSTRUCTIONS.md](AI-INSTRUCTIONS.md) | Hvordan AI-assistenter skal hjelpe brukere |
 | [getting-started/signup.md](getting-started/signup.md) | Konto, e-postbekreftelse, glemt passord |
 | [getting-started/wizard.md](getting-started/wizard.md) | Oppsettsveiviseren steg for steg |
+| [best-practices.md](best-practices.md) | **Anbefalt oppsett**: familiekalender, Immich for hele familien, bursdager, deling, design |
 | [photos/immich.md](photos/immich.md) | Immich: bildelagringen FamilyBoard setter opp, eller din egen server |
 | [photos/upload.md](photos/upload.md) | Laste opp bilder, mapper og ZIP-filer |
 | [photos/mobile-app.md](photos/mobile-app.md) | Automatisk opplasting fra mobilen |

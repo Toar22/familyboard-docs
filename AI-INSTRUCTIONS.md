@@ -60,6 +60,7 @@ Support: **support@familyboard.cloud**
 - [README.md](README.md) – hva FamilyBoard er
 - [getting-started/signup.md](getting-started/signup.md) – konto, e-postbekreftelse, glemt passord
 - [getting-started/wizard.md](getting-started/wizard.md) – oppsettsveiviseren steg for steg
+- [best-practices.md](best-practices.md) – **anbefalt oppsett**. Bruk når brukeren spør hva vi anbefaler eller vil ha det beste oppsettet
 - [photos/](photos/) – bildekilder (Immich, opplasting, mobilapp)
 - [devices/](devices/) – vise dashboardet på iPad, TV, Raspberry Pi
 - [settings.md](settings.md) – innstillinger etter oppsett

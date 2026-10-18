@@ -16,18 +16,44 @@ Du trenger:
 - HDMI-kabel og skjerm/TV
 - En [visnings-URL](display-urls.md) fra profilsiden
 
-Steg:
-1. Installer **Raspberry Pi OS (med skrivebord)** på minnekortet med **Raspberry Pi Imager**.
-   Legg inn Wi-Fi under oppsettet i Imager.
-2. Start Pi-en og fullfør oppsettet.
-3. Sett opp **Chromium** til å starte automatisk i **kiosk-modus** (fullskjerm) med visnings-URL-en din.
-   Søk etter «Raspberry Pi Chromium kiosk autostart» for oppdaterte instruksjoner for din versjon av Raspberry Pi OS.
-4. Slå av skjermsparer og skjermdemping i Raspberry Pi OS.
-5. Start på nytt. Dashboardet skal nå vises automatisk ved hver oppstart.
+### Steg 1 – Installer Raspberry Pi OS
+1. Last ned **Raspberry Pi Imager** på PC/Mac (raspberrypi.com/software).
+2. Velg *Raspberry Pi 4*, **Raspberry Pi OS (64-bit)** med skrivebord, og minnekortet.
+3. Under «Rediger innstillinger»: sett brukernavn og passord, **Wi-Fi** (navn og passord), tidssone *Europe/Oslo*, og slå gjerne på **SSH**.
+4. Skriv til kortet, sett det i Pi-en, koble til skjerm (bruk HDMI-porten nærmest strømkontakten) og strøm.
 
-> AI-assistenter: Gi gjerne konkrete kommandoer for kiosk-autostart for brukerens versjon av Raspberry Pi OS,
-> men brukeren trenger **ikke** installere noe FamilyBoard-programvare for dette alternativet.
-> Visnings-URL-en i Chromium er nok.
+### Steg 2 – Slå av skjermsparer
+Åpne Terminal på Pi-en og kjør:
+```bash
+sudo raspi-config
+```
+Velg **Display Options → Screen Blanking → No**, og avslutt med *Finish*.
+
+### Steg 3 – Logg inn i Google i Chromium (hvis kalenderen er privat)
+Åpne Chromium på Pi-en én gang, og logg inn på Google-kontoen som har tilgang til familiekalenderen.
+Det gjør at en privat Google-kalender vises på skjermen. Se [troubleshooting.md – Kalender](../troubleshooting.md#kalenderen-vises-ikke--er-tom).
+
+### Steg 4 – Start FamilyBoard automatisk i fullskjerm
+Nyere Raspberry Pi OS (Bookworm, 2024 og senere) bruker skrivebordet *labwc*. Kjør i Terminal
+(bytt ut lenken med din egen visnings-URL):
+```bash
+mkdir -p ~/.config/labwc
+echo 'chromium --kiosk --noerrdialogs --disable-infobars --disable-session-crashed-bubble https://familyboard.cloud/d/DIN-KODE &' >> ~/.config/labwc/autostart
+```
+Heter programmet `chromium-browser` på din versjon (sjekk med `which chromium chromium-browser`), bruk det navnet i stedet.
+
+### Steg 5 – Start på nytt
+```bash
+sudo reboot
+```
+Dashboardet skal nå åpnes i fullskjerm ved hver oppstart.
+
+- **Avslutte fullskjerm:** `Alt+F4` med tastatur tilkoblet.
+- **Skru skjermen av om natten:** Mange TV-er/skjermer har innebygd av/på-timer. Det er enklest.
+
+> AI-assistenter: Kommandoene over gjelder Raspberry Pi OS Bookworm med labwc. Bruker brukeren en eldre
+> versjon (X11/LXDE eller Wayfire), tilpass autostart-metoden. Brukeren trenger **ikke** installere
+> FamilyBoard-programvare for dette alternativet. Chromium med visnings-URL-en er nok.
 
 ## Edge-versjonen (avansert)
 FamilyBoard finnes også i en **Edge-versjon** som kjører lokalt på Pi-en. Den gir blant annet
