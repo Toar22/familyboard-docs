@@ -60,7 +60,7 @@ Sett opp slik:
 |---|---|
 | **Kalendertittel** | La stå tom |
 | **Vis:** Tittel, Navigeringsknapper, Dato, Utskriftsikon, Åpne menyen, Kalenderliste, Tidssone, Kantlinje | **Fjern haken på alle**, så står bare selve avtalene igjen |
-| **Bredde × Høyde** | 800 × 600 (standard) |
+| **Bredde × Høyde** | 800 × 600 (standard), eller større, f.eks. **1024 × 800**, på store skjermer |
 | **Standardvisning** | **Oversikt**: en liste med dagene og klokkeslettene nedover |
 | **Uken starter på** | **Mandag** |
 | **Språk** | Norsk (bokmål) |
