@@ -19,7 +19,7 @@ jo flere glemte minner dukker opp. Last opp alt, og la filtrene ta seg av det so
 3. **Rydd bildene** med Immich: legg uønskede bilder i et eget album som utelates, og vis bare bilder med personer.
 4. Legg inn **navn og bursdag** på viktige personer i Immich, og slå på **bursdagsfunksjonen**.
 5. **Del album** med besteforeldre og andre i familien.
-6. Bildebytte hvert **5. minutt**, kalender i **ukevisning**.
+6. Bildebytte hvert **5. minutt**, kalender i visningen **Oversikt** med uken fra mandag.
 7. Finjuster utseendet i **Design-modus**.
 
 ---
@@ -50,15 +50,34 @@ Målet er å få **mest mulig** inn i én familiekalender som vises på skjermen
 
 > Kalendere lagt inn med «Fra nettadresse» oppdateres av Google, typisk noen ganger i døgnet, ikke umiddelbart.
 
-### 1c. Vis alle kalenderne samlet i FamilyBoard
-1. Google Kalender → Innstillinger → velg *Familien* → **«Integrer kalender»** → **«Tilpass»**.
-2. **Huk av kalenderne** som skal vises (familie, hver voksen, Spond, skole). De får hver sin farge.
-   **Fjern haken** på kalendere som ikke skal på skjermen, f.eks. jobbkalendere, helligdager eller fødselsdager du ikke vil se.
-3. Velg en visning med **tiden nedover**, f.eks. **«Uke»**. Det synes vi er finest. Prøv gjerne «Oversikt» også, og se hva som passer skjermen.
-4. **Fjern alt annet** for et rent utseende: Tittel, Kantlinje (ramme), Navigasjon, Dato, Utskrift, Meny,
-   Kalenderliste og Tidssone. Ta bort alt som ikke er selve kalenderen.
-5. Kopier innebyggingskoden (eller bare lenken) og lim den inn i FamilyBoard: **Administrasjon → Kalender → «Angi kalender-URL»**.
-6. Sett samme **Visning** i FamilyBoard, og størrelse **X-large**, eller **Large** hvis du også har Ruter-tavler.
+### 1c. Vis alle kalenderne samlet i FamilyBoard – våre anbefalte innstillinger
+Åpne Google Kalender på PC → Innstillinger → velg *Familien* → **«Integrer kalender»** → **«Tilpass»**
+(eller gå rett til Googles embed-hjelp: `calendar.google.com/calendar/embedhelper`).
+
+Sett opp slik:
+
+| Innstilling | Anbefalt verdi |
+|---|---|
+| **Kalendertittel** | La stå tom |
+| **Vis:** Tittel, Navigeringsknapper, Dato, Utskriftsikon, Åpne menyen, Kalenderliste, Tidssone, Kantlinje | **Fjern haken på alle**, så står bare selve avtalene igjen |
+| **Bredde × Høyde** | 800 × 600 (standard) |
+| **Standardvisning** | **Oversikt**: en liste med dagene og klokkeslettene nedover |
+| **Uken starter på** | **Mandag** |
+| **Språk** | Norsk (bokmål) |
+| **Tidssone** | Din egen, f.eks. Oslo/Sentraleuropeisk tid |
+| **Kalendere** (nederst) | **Huk av** alle kalenderne som skal vises (familie, hver voksen, Spond, skole). **Fjern haken** på det som ikke skal på skjermen, f.eks. jobb, helligdager eller fødselsdager du ikke vil se. |
+
+Resultatet er en ren liste per dag med klokkeslett, tittel og sted, og hver kalender i sin egen farge.
+
+Deretter:
+1. Trykk **kopier-ikonet** ved «Innebyggingskode».
+2. Lim inn i FamilyBoard: **Administrasjon → Kalender → «Angi kalender-URL»**. Hele `<iframe …>`-koden fungerer.
+3. Sett **Visning: Oversikt** i FamilyBoard, og størrelse **X-large**, eller **Large** hvis du også har Ruter-tavler.
+4. Trykk **«Lagre og restart»**.
+
+> **Gul melding «Aktiviteter fra en eller flere kalendere kunne ikke vises her fordi du ikke har tillatelse»?**
+> En av kalenderne du har huket av er ikke delt med Google-kontoen du er logget inn med.
+> Be eieren dele den med kontoen (minst «Se alle aktivitetsdetaljer»), eller fjern haken på den kalenderen.
 
 ### 1d. Logg inn i Google på skjermen
 Familiekalenderen er privat, og det skal den være. For at den skal vises på skjermen, må nettleseren
@@ -151,7 +170,7 @@ Da får besteforeldrene bildene av barnebarna rett på skjermen sin, uten å sen
 | Innstilling | Vår anbefaling | Hvor |
 |---|---|---|
 | Bildebytte | **5 minutter** | Administrasjon → Bildeinnstillinger → Oppdateringsintervall |
-| Kalendervisning | **Uke** | Administrasjon → Kalender |
+| Kalendervisning | **Oversikt**, uken starter mandag | Google embed-hjelp + Administrasjon → Kalender |
 | Kalenderstørrelse | **X-large**, eller **Large** med Ruter-tavler | Administrasjon → Kalender |
 | Klokke og vær | På | Administrasjon → Widgeter |
 | Sted og år på bildet | På. Det gir gode «hvor var dette?»-samtaler. | Administrasjon → Widgeter |

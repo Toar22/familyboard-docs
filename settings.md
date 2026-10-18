@@ -48,11 +48,12 @@ Standardprofilen kan ikke endres. Lag en ny profil for å tilpasse.
 - **Fullskjerm kalender**
 - **«Angi kalender-URL»:** lim inn embed-lenke fra Google Kalender. «i»-knappen viser hvilken URL som er lagret.
 
-**Slik får du en pen kalender:**
+**Slik får du en pen kalender** (se [best-practices.md – anbefalte innstillinger](best-practices.md#1c-vis-alle-kalenderne-samlet-i-familyboard--våre-anbefalte-innstillinger)):
 1. Google Kalender (på PC) → Innstillinger → velg kalender → **«Integrer kalender»** → **«Tilpass»**.
-2. Velg visning (Oversikt, Uke eller Måned).
-3. Fjern gjerne: Tittel, Navigasjon, Dato, Utskrift, «Åpne i Google Kalender», Meny, Kalenderliste, Tidssone og Kantlinje.
-4. Kopier innebyggingskoden (eller bare `src`-adressen) og lim inn i FamilyBoard.
+2. Fjern haken på alle «Vis»-valgene (Tittel, Navigeringsknapper, Dato, Utskriftsikon, Åpne menyen, Kalenderliste, Tidssone, Kantlinje).
+3. Standardvisning **Oversikt**, uken starter på **Mandag**, språk Norsk (bokmål).
+4. Huk av kalenderne som skal vises.
+5. Kopier innebyggingskoden og lim inn i FamilyBoard.
 
 Lenken må inneholde `calendar.google.com/calendar/embed`.
 Andre kalendere (iCloud, Outlook) må først legges inn i Google Kalender. Se [faq.md](faq.md).

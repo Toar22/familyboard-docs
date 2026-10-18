@@ -33,6 +33,7 @@ noen bilder å vise. Gå gjennom listen i rekkefølge:
 | «Vennligst lim inn en gyldig Google Kalender embed-URL.» | Bruk embed-lenken fra «Integrer kalender». Lenken må inneholde `calendar.google.com/calendar/embed`. Den vanlige nettleseradressen til Google Kalender fungerer ikke. |
 | Kalenderen viser feil kalender / en standardkalender | Lim inn embed-lenken på nytt under Kalender → «Angi kalender-URL» og trykk «Lagre og restart» |
 | Kalenderen vises, men uten avtaler, ber om innlogging eller sier «Du har ikke tilgang» | Kalenderen er privat, og nettleseren på skjermen er ikke logget inn på Google. Logg inn på Google-kontoen med kalenderen i nettleseren på skjermen (Chromium på Pi, Safari/Google-konto på iPad). Se [best-practices.md](best-practices.md#1d-logg-inn-i-google-på-skjermen). |
+| Gul melding: «Aktiviteter fra en eller flere kalendere kunne ikke vises her fordi du ikke har tillatelse» | En av kalenderne i embed-koden er ikke delt med Google-kontoen nettleseren er logget inn med. Del kalenderen med kontoen, eller fjern den fra embed-koden. |
 | Kalenderen er for stor/liten | Administrasjon → Kalender → velg størrelse og visning. Se [settings.md](settings.md#kalender). |
 
 ---
