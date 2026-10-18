@@ -9,6 +9,18 @@ på en TV, iPad, nettbrett eller Raspberry Pi-skjerm, for eksempel på kjøkkene
 > AI assistants (ChatGPT, Claude, Gemini, Copilot …) that help users set it up.
 > The product UI is in Norwegian. AI assistants: start with [AI-INSTRUCTIONS.md](AI-INSTRUCTIONS.md).
 
+## Hvorfor FamilyBoard?
+
+De fleste familier har tusenvis av bilder liggende på telefoner, harddisker og i skyen (iCloud, Google Photos),
+men nesten ingen får brukt dem. Kanskje blir det et fotoalbum i året. Resten blir liggende.
+
+FamilyBoard henter frem familiealbumet **i bakgrunnen, uten at noen må gjøre noe**. Mens dere lager middag
+eller spiser frokost, dukker et nytt minne opp på skjermen hvert femte minutt: teltturen, de første dagene
+på sykehuset, barnehagen, fotballkampene, sommerferien, hytta, fjellturene, utenlandsturene.
+Barna elsker å se seg selv som små, og de voksne blir minnet på alt det fine dere har gjort sammen.
+
+En familie med 60 000 bilder ser nye, glemte øyeblikk hver eneste dag. Vi mener det rett og slett øker livskvaliteten.
+
 ## Hva FamilyBoard kan vise
 
 - 🖼️ **Bildefremvisning** fra Immich (anbefalt) eller bilder du laster opp direkte

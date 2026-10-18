@@ -9,6 +9,10 @@ Ingenting her er påkrevd. Det er tips for å få en skjerm hele familien faktis
 > Mange av stegene skjer i **Google Kalender**, **Spond** og **Immich**, ikke i FamilyBoard.
 > Si tydelig hvilken app brukeren skal være i.
 
+**Målet:** Få hele familiealbumet i bruk. Alle de tusenvis av bildene som ligger på telefoner, harddisker
+og i skyen skal komme frem igjen, i bakgrunnen, mens dere lever livet. Jo flere bilder du laster opp,
+jo flere glemte minner dukker opp. Last opp alt, og la filtrene ta seg av det som ikke skal vises.
+
 **Kortversjon:**
 1. Samle hele familien i **én familiekalender** i Google Kalender, inkludert Spond, skole og barnehage.
 2. Alle i familien installerer **Immich-appen** og laster opp bilder automatisk.
