@@ -22,7 +22,12 @@ Ingenting her er påkrevd. Det er tips for å få en skjerm hele familien faktis
 
 ## 1. Kalender: én familiekalender for alt
 
-Målet er at alt familien skal på, havner i én kalender som vises på skjermen.
+Målet er å få **mest mulig** inn i én familiekalender som vises på skjermen.
+
+> **Bruker du Apple-kalender, Outlook eller noe annet?** Du trenger ikke bytte.
+> Lag en egen **gratis** Google-kalender (eller Google-konto) **bare for skjermen**, og link de kalenderne
+> dere allerede bruker inn i den. Da fortsetter alle å bruke det de har i dag, uten å merke noe,
+> mens skjermen viser alt samlet.
 
 ### 1a. Lag en felles familiekalender i Google Kalender
 1. Google Kalender på PC → **«+»** ved «Andre kalendere» → **«Opprett ny kalender»** → kall den f.eks. *Familien*.
@@ -43,11 +48,23 @@ Målet er at alt familien skal på, havner i én kalender som vises på skjermen
 
 ### 1c. Vis alle kalenderne samlet i FamilyBoard
 1. Google Kalender → Innstillinger → velg *Familien* → **«Integrer kalender»** → **«Tilpass»**.
-2. **Huk av alle kalenderne** som skal vises (familie, hver voksen, Spond, skole). De får hver sin farge.
-3. Velg visningen **«Uke»**. Den viser dagene ved siden av hverandre med tiden nedover, og er vår favoritt.
-4. Fjern unødvendige elementer: Tittel, Navigasjon, Dato, Utskrift, Meny, Kalenderliste, Tidssone og Kantlinje.
-5. Kopier innebyggingskoden og lim den inn i FamilyBoard: **Administrasjon → Kalender → «Angi kalender-URL»**.
-6. Sett **Visning: Uke** og størrelse **X-large**, eller **Large** hvis du også har Ruter-tavler.
+2. **Huk av kalenderne** som skal vises (familie, hver voksen, Spond, skole). De får hver sin farge.
+   **Fjern haken** på kalendere som ikke skal på skjermen, f.eks. jobbkalendere, helligdager eller fødselsdager du ikke vil se.
+3. Velg en visning med **tiden nedover**, f.eks. **«Uke»**. Det synes vi er finest. Prøv gjerne «Oversikt» også, og se hva som passer skjermen.
+4. **Fjern alt annet** for et rent utseende: Tittel, Kantlinje (ramme), Navigasjon, Dato, Utskrift, Meny,
+   Kalenderliste og Tidssone. Ta bort alt som ikke er selve kalenderen.
+5. Kopier innebyggingskoden (eller bare lenken) og lim den inn i FamilyBoard: **Administrasjon → Kalender → «Angi kalender-URL»**.
+6. Sett samme **Visning** i FamilyBoard, og størrelse **X-large**, eller **Large** hvis du også har Ruter-tavler.
+
+### 1d. Logg inn i Google på skjermen
+Familiekalenderen er privat, og det skal den være. For at den skal vises på skjermen, må nettleseren
+på skjermen være **logget inn på Google-kontoen** som har tilgang til kalenderen:
+- **Raspberry Pi:** Åpne Chromium én gang og logg inn på Google. Se [devices/raspberry-pi.md](devices/raspberry-pi.md).
+- **iPad:** Logg inn på Google-kontoen på iPaden (i Safari eller via iPad-innstillingene), og åpne deretter FamilyBoard.
+- Bruker du en egen Google-konto bare for skjermen (se over), er det den du logger inn med.
+  Da ligger ingen andre private data på skjermen.
+
+Ser du «Du har ikke tilgang» eller en tom kalender, er det nesten alltid fordi nettleseren på skjermen ikke er logget inn.
 
 Se også [settings.md – Kalender](settings.md#kalender).
 

@@ -32,7 +32,7 @@ noen bilder å vise. Gå gjennom listen i rekkefølge:
 | Ingen kalender i det hele tatt | Er «Fullskjerm bilde» slått på? Slå den av under Administrasjon → Widgeter. Sjekk at en kalender-URL er lagret (Kalender → «i»-knappen viser *«⚠️ Ingen kalender-URL er lagret ennå»* hvis ikke). |
 | «Vennligst lim inn en gyldig Google Kalender embed-URL.» | Bruk embed-lenken fra «Integrer kalender». Lenken må inneholde `calendar.google.com/calendar/embed`. Den vanlige nettleseradressen til Google Kalender fungerer ikke. |
 | Kalenderen viser feil kalender / en standardkalender | Lim inn embed-lenken på nytt under Kalender → «Angi kalender-URL» og trykk «Lagre og restart» |
-| Kalenderen vises, men uten avtaler, eller ber om innlogging | Kalenderen er privat. Se [wizard.md – Kalender](getting-started/wizard.md#vanlige-problemer). |
+| Kalenderen vises, men uten avtaler, ber om innlogging eller sier «Du har ikke tilgang» | Kalenderen er privat, og nettleseren på skjermen er ikke logget inn på Google. Logg inn på Google-kontoen med kalenderen i nettleseren på skjermen (Chromium på Pi, Safari/Google-konto på iPad). Se [best-practices.md](best-practices.md#1d-logg-inn-i-google-på-skjermen). |
 | Kalenderen er for stor/liten | Administrasjon → Kalender → velg størrelse og visning. Se [settings.md](settings.md#kalender). |
 
 ---

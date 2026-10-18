@@ -18,6 +18,9 @@ I FamilyBoard finnes også en **«📺 Visningsguide»** øverst på profilsiden
    4. For å avslutte: trippelklikk igjen og tast koden.
 4. **Hold skjermen på:** Innstillinger → **Skjerm og lysstyrke** → **Auto-lås** → **Aldri**. La iPaden stå på lading.
 
+5. **Vis privat Google-kalender:** Logg inn på Google-kontoen med familiekalenderen på iPaden før du starter Veiledet tilgang.
+   Ellers vises kalenderen tom. Se [best-practices.md – Logg inn i Google på skjermen](../best-practices.md#1d-logg-inn-i-google-på-skjermen).
+
 Tips: Et stativ eller en veggholder gjør iPaden til en fin fotoramme.
 
 ## Android-nettbrett
