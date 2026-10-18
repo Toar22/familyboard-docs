@@ -173,6 +173,7 @@ Da får besteforeldrene bildene av barnebarna rett på skjermen sin, uten å sen
 | Kalendervisning | **Oversikt**, uken starter mandag | Google embed-hjelp + Administrasjon → Kalender |
 | Kalenderstørrelse | **X-large**, eller **Large** med Ruter-tavler | Administrasjon → Kalender |
 | Klokke og vær | På | Administrasjon → Widgeter |
+| Klesråd (påkledningsråd) | På hvis dere har barn som skal kle seg for været. **Slå av** hvis du ikke vil ha den visningen. | Administrasjon → Widgeter → «Vis klesråd» |
 | Sted og år på bildet | På. Det gir gode «hvor var dette?»-samtaler. | Administrasjon → Widgeter |
 
 ### Design-modus: gjør skjermen din egen
