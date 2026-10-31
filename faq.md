@@ -10,7 +10,7 @@ Nei. FamilyBoard kjører i nettleseren. For automatisk opplasting fra mobilen an
 ### Hvilke bildekilder støttes?
 - **Immich** (anbefalt), enten den FamilyBoard setter opp for deg eller din egen server
 - **Opplasting** direkte i nettleseren (enkeltbilder, mapper, ZIP)
-- **Lokal mappe / USB-disk**, kun på Raspberry Pi med Edge-versjonen
+- **Lokal mappe / USB-disk**, kun på Raspberry Pi-er med den eldre Edge-versjonen. Nye Pi-skjermer bruker Immich eller opplasting.
 
 Google Photos og iCloud-bibliotek støttes **ikke** som direkte kilde i dag. Løsning: installer
 Immich-appen på telefonen og ta backup derfra, eller last ned bildene og last dem opp.
