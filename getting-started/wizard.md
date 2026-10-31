@@ -97,7 +97,7 @@ Bor brukeren utenfor Ruters område, er det bare å hoppe over steget.
 |---|---|---|
 | **Immich** ★ Anbefalt | De fleste. FamilyBoard setter opp en personlig bildelagring automatisk, eller man kobler til sin egen Immich-server | Synk fra mobil med Immich-appen, filtrering på album/personer/år. Se [immich.md](../photos/immich.md) |
 | **Last opp bilder** | De som vil komme raskt i gang uten app | Opplasting i nettleseren (enkeltbilder eller ZIP). 10 GB inkludert på gratisplanen. Se [upload.md](../photos/upload.md) |
-| **Lokal mappe** | Kun Raspberry Pi / Edge-installasjon | **Fungerer ikke** i nettleser-/skyversjonen. Se [raspberry-pi.md](../devices/raspberry-pi.md) |
+| **Lokal mappe** | Kun Raspberry Pi med den eldre Edge-versjonen | **Fungerer ikke** i nettleser-/skyversjonen eller på nye Pi-skjermer. Velg Immich i stedet. Se [raspberry-pi.md](../devices/raspberry-pi.md) |
 
 > FamilyBoard er **ikke** en backup-løsning. Brukeren bør alltid ha originalbildene lagret et annet sted.
 

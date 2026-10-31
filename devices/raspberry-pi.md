@@ -19,6 +19,8 @@ Du trenger:
 ### Steg 1 – Installer Raspberry Pi OS
 1. Last ned **Raspberry Pi Imager** på PC/Mac (raspberrypi.com/software).
 2. Velg *Raspberry Pi 4*, **Raspberry Pi OS (64-bit)** med skrivebord, og minnekortet.
+   Bruk Raspberry Pi OS, ikke Ubuntu. På Ubuntu sitt standard-skrivebord blir fullskjerm ofte
+   ufullstendig (panel og verktøylinje vises, eller bare halve skjermen brukes).
 3. Under «Rediger innstillinger»: sett brukernavn og passord, **Wi-Fi** (navn og passord), tidssone *Europe/Oslo*, og slå gjerne på **SSH**.
 4. Skriv til kortet, sett det i Pi-en, koble til skjerm (bruk HDMI-porten nærmest strømkontakten) og strøm.
 
@@ -42,6 +44,15 @@ echo 'chromium --kiosk --noerrdialogs --disable-infobars --disable-session-crash
 ```
 Heter programmet `chromium-browser` på din versjon (sjekk med `which chromium chromium-browser`), bruk det navnet i stedet.
 
+**Kjør kommandoen bare én gang.** Den legger til en linje hver gang den kjøres, og to linjer gir to
+nettleservinduer oppå hverandre. Sjekk fila med:
+```bash
+cat ~/.config/labwc/autostart
+```
+Det skal bare være én linje som starter `chromium`. Fjern eventuelle duplikater med `nano ~/.config/labwc/autostart`.
+
+Ikke legg til `--window-size` eller `--window-position`. Da viser Chromium verktøylinjen igjen.
+
 ### Steg 5 – Start på nytt
 ```bash
 sudo reboot
@@ -55,11 +66,13 @@ Dashboardet skal nå åpnes i fullskjerm ved hver oppstart.
 > versjon (X11/LXDE eller Wayfire), tilpass autostart-metoden. Brukeren trenger **ikke** installere
 > FamilyBoard-programvare for dette alternativet. Chromium med visnings-URL-en er nok.
 
-## Edge-versjonen (avansert)
-FamilyBoard finnes også i en **Edge-versjon** som kjører lokalt på Pi-en. Den gir blant annet
-mulighet til å vise bilder fra en **lokal mappe / USB-disk** (valget «Lokal mappe» i veiviseren).
-- Kontoen må opprettes på **familyboard.cloud** først. Man kan ikke registrere seg på en Pi.
-- Edge leveres på ferdig konfigurerte enheter, eller etter avtale med support.
+## Eldre Edge-versjon (fases ut)
+Noen tidligere leverte Pi-er kjører en eldre **Edge-versjon** med FamilyBoard installert lokalt.
+Den er den eneste som støtter bildekilden **«Lokal mappe»** (USB-disk).
+- Edge-versjonen tilbys ikke for nye oppsett. Nye Pi-skjermer, også de ferdig konfigurerte, viser
+  bare en visnings-URL som beskrevet over. Alt hentes fra familyboard.cloud.
+- Bruk **Immich** som bildekilde i stedet for «Lokal mappe».
+- Kontoen må alltid opprettes på **familyboard.cloud**. Man kan ikke registrere seg på en Pi.
 
 ## Feilsøking
 | Problem | Tiltak |
@@ -68,4 +81,8 @@ mulighet til å vise bilder fra en **lokal mappe / USB-disk** (valget «Lokal ma
 | Dashboardet viser bare standardbildet | Se [troubleshooting.md](../troubleshooting.md#dashboardet-viser-bare-standardbildet). Sjekk at samme dashboard viser bilder i nettleseren på PC/mobil. |
 | «Ugyldig lenke» | Visnings-URL-en er slettet eller skrevet feil. Lag en ny på profilsiden. |
 | Skjermen slukker etter en stund | Slå av skjermsparer/skjermdemping i Raspberry Pi OS |
+| Dashboardet fyller bare halve skjermen | Pi-en har to HDMI-kabler tilkoblet og bruker dem som én bred skjerm. Bruk bare én HDMI-kabel, eller still inn speiling under skjerminnstillingene. |
+| Panel, menylinje eller Chromium-verktøylinje vises | Chromium er ikke i kiosk-modus. Sjekk at autostart-linjen har `--kiosk` og ikke `--window-size`. På Ubuntu: bytt til Raspberry Pi OS. |
+| Feilmelding eller et annet vindu bak dashboardet | Autostart starter Chromium to ganger. Se «Kjør kommandoen bare én gang» i steg 4. |
+| Kalenderen er tom eller ber om innlogging | Logg inn på Google i Chromium på Pi-en (steg 3). Se [troubleshooting.md – Kalender](../troubleshooting.md#kalenderen-vises-ikke--er-tom). |
 | Ingen nett | Sjekk Wi-Fi. Pi-en må ha internett for å hente bilder. |

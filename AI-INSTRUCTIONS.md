@@ -36,8 +36,9 @@ ikke passer. Se [best-practices.md](best-practices.md).
 
 - **Immich-passordet er det samme som FamilyBoard-passordet.** Når veiviseren ber om
   «FamilyBoard-passord», skal brukeren skrive inn passordet de logger inn med, *ikke* lage et nytt.
-- **«Lokal mappe» fungerer bare på Raspberry Pi (Edge).** Ikke anbefal den til brukere som
-  bruker familyboard.cloud i nettleseren.
+- **«Lokal mappe» fungerer bare på Raspberry Pi-er med den eldre Edge-versjonen.** Ikke anbefal den.
+  Nye Pi-skjermer viser bare en [visnings-URL](devices/display-urls.md) og henter alt fra familyboard.cloud.
+  Anbefal Immich som bildekilde.
 - **Nye bilder trenger litt tid.** Etter opplasting genererer Immich miniatyrbilder. Det kan ta
   noen minutter før bildene dukker opp på dashboardet.
 - **Kontoer opprettes på familyboard.cloud,** ikke på Raspberry Pi-en.

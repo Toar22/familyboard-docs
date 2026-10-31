@@ -21,7 +21,7 @@ Lenken **«Min konto →»** øverst til høyre går til profilsiden.
 ## Administrasjon – faner
 
 ### Bildeinnstillinger
-- **Bildekilde** (én aktiv om gangen): **Immich ★ Anbefalt**, **Opplastede bilder** eller **Lokal harddisk** (kun Raspberry Pi/Edge)
+- **Bildekilde** (én aktiv om gangen): **Immich ★ Anbefalt**, **Opplastede bilder** eller **Lokal harddisk** (kun Raspberry Pi med den eldre Edge-versjonen)
 - Immich-innstillinger og filtre: se [photos/immich.md](photos/immich.md)
 - Opplasting: se [photos/upload.md](photos/upload.md)
 - **Oppdateringsintervall:** hvor ofte bildet byttes (1–30 min, 5 min er standard). «Annet» gir valgfritt antall minutter.
