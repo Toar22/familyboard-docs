@@ -47,6 +47,10 @@ Brukes til vær (Yr) og soloppgang/solnedgang.
 Egne fargeprofiler for bakgrunn, klokke, vær, kalender, rammer m.m., og eget bakgrunnsbilde (maks ca. 8 MB).
 Standardprofilen kan ikke endres. Lag en ny profil for å tilpasse.
 
+**Ferdige design:** Under «Ferdige design» i Design-fanen kan du velge **Familieplanlegger**, **Galleri**,
+**Kjøkken**, **Nordlys** eller **Bilderamme** og trykke **«Bruk design»**. Det lagres som en ny profil du kan
+justere videre i designmodus. Dine egne profiler endres ikke – velg en av dem og trykk «Aktiver» for å gå tilbake.
+
 ### Kalender
 - **Størrelse:** X-large (ukesvisning, 100 % zoom), Large (med kollektivtavler), Medium, Small
 - **Visning:** Oversikt / Uke / Måned
