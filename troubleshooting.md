@@ -34,6 +34,7 @@ noen bilder å vise. Gå gjennom listen i rekkefølge:
 | Kalenderen viser feil kalender / en standardkalender | Lim inn embed-lenken på nytt under Kalender → «Angi kalender-URL» og trykk «Lagre og restart» |
 | Kalenderen vises, men uten avtaler, ber om innlogging eller sier «Du har ikke tilgang» | Kalenderen er privat, og nettleseren på skjermen er ikke logget inn på Google. Logg inn på Google-kontoen med kalenderen i nettleseren på skjermen (Chromium på Pi, Safari/Google-konto på iPad). Se [best-practices.md](best-practices.md#1d-logg-inn-i-google-på-skjermen). |
 | Gul melding: «Aktiviteter fra en eller flere kalendere kunne ikke vises her fordi du ikke har tillatelse» | En av kalenderne i embed-koden er ikke delt med Google-kontoen nettleseren er logget inn med. Del kalenderen med kontoen, eller fjern den fra embed-koden. |
+| En ny kalender (lagt til i Google Kalender) vises ikke | Embed-lenken lister hver kalender for seg og oppdateres ikke av seg selv. Lag en ny lenke: Google Kalender på PC → Innstillinger → velg kalenderen → **«Integrer kalender»** → **«Tilpass»** → huk av den nye kalenderen → kopier lenken → FamilyBoard: Kalender → **«Angi kalender-URL»** → **«Lagre og restart»**. Er den nye kalenderen privat, må den også være delt med Google-kontoen skjermen er logget inn med. |
 | Kalenderen er for stor/liten | Administrasjon → Kalender → velg størrelse og visning. Se [settings.md](settings.md#kalender). |
 
 ---

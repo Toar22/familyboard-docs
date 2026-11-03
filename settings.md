@@ -55,6 +55,9 @@ Standardprofilen kan ikke endres. Lag en ny profil for å tilpasse.
 4. Huk av kalenderne som skal vises.
 5. Kopier innebyggingskoden og lim inn i FamilyBoard.
 
+Legger du til en ny kalender i Google senere, kommer den **ikke** med av seg selv. Gjenta stegene,
+huk av den nye kalenderen også, og lim inn den nye lenken.
+
 Lenken må inneholde `calendar.google.com/calendar/embed`.
 Andre kalendere (iCloud, Outlook) må først legges inn i Google Kalender. Se [faq.md](faq.md).
 
