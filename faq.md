@@ -27,6 +27,10 @@ Med Immich kan man også dele album mellom ulike Immich-kontoer.
 ### Kan jeg ha FamilyBoard på flere skjermer?
 Ja. Lag en [visnings-URL](devices/display-urls.md) per skjerm. Antallet avhenger av planen.
 
+### Kan jeg flytte Raspberry Pi-skjermen til et annet hjem?
+Ja. En ferdig konfigurert Pi setter du opp på nytt WiFi med mobilen, uten tastatur. Se
+[Flytte skjermen eller bytte WiFi](devices/raspberry-pi.md#flytte-skjermen-eller-bytte-wifi-ferdig-konfigurert-pi).
+
 ### Hvem kan se bildene mine?
 Bare du når du er logget inn, og alle som har en av dine visnings-URL-er.
 Slett en visnings-URL for å stenge tilgangen.

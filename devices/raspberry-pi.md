@@ -8,6 +8,26 @@ FamilyBoard selger en ferdig oppsatt Raspberry Pi. Den kobles til skjermen med H
 viser dashboardet ditt med en gang.
 Pris og bestilling: se **«📺 Visningsguide»** på profilsiden, eller kontakt **support@familyboard.cloud**.
 
+### Flytte skjermen eller bytte WiFi (ferdig konfigurert Pi)
+Pi-en kobler seg automatisk til WiFi-nett den kjenner fra før, og til nettverkskabel.
+I et nytt hjem eller med nytt WiFi-passord setter du den opp med mobilen:
+
+1. Sett Pi-en i strøm på det nye stedet og vent **1–2 minutter**. Finner den ikke et kjent nett,
+   viser skjermen **«FamilyBoard Recovery»** med navnet på et eget oppsettsnett.
+2. På mobilen: koble til WiFi-nettet **FamilyBoard-Setup-XXXX** (XXXX er fire tegn som står på skjermen).
+   Passordet er **familyboard**. Sier mobilen at nettet ikke har internett, velg å bli tilkoblet likevel.
+3. Siden **«📺 FamilyBoard – WiFi»** åpnes av seg selv. Gjør den ikke det, skriv **http://192.168.4.1** i nettleseren.
+4. Velg ditt WiFi i listen under **«Nettverk»**. Står det ikke der (skjult nett), skriv navnet i feltet under.
+   Skriv WiFi-passordet og trykk **«Koble til»**.
+5. Koble mobilen tilbake til ditt vanlige WiFi. Innen ca. 1 minutt viser skjermen dashboardet.
+
+- Kommer **FamilyBoard-Setup-XXXX** tilbake etter 1–3 minutter, var nettverksnavnet eller passordet feil.
+  Koble til igjen og prøv på nytt.
+- Oppsettsnettet startes bare når Pi-en slås på uten kjent nett. Er WiFi-en byttet mens Pi-en står på,
+  ta ut strømmen og sett den i igjen.
+- Med **nettverkskabel** i ruteren trengs ingen oppsett.
+- Pi-en husker også det gamle nettet, så den virker når den flyttes tilbake.
+
 ## Alternativ 2: Gjør det selv (for de som er komfortable med litt teknikk)
 
 Du trenger:
@@ -85,4 +105,5 @@ Den er den eneste som støtter bildekilden **«Lokal mappe»** (USB-disk).
 | Panel, menylinje eller Chromium-verktøylinje vises | Chromium er ikke i kiosk-modus. Sjekk at autostart-linjen har `--kiosk` og ikke `--window-size`. På Ubuntu: bytt til Raspberry Pi OS. |
 | Feilmelding eller et annet vindu bak dashboardet | Autostart starter Chromium to ganger. Se «Kjør kommandoen bare én gang» i steg 4. |
 | Kalenderen er tom eller ber om innlogging | Logg inn på Google i Chromium på Pi-en (steg 3). Se [troubleshooting.md – Kalender](../troubleshooting.md#kalenderen-vises-ikke--er-tom). |
-| Ingen nett | Sjekk Wi-Fi. Pi-en må ha internett for å hente bilder. |
+| Ingen nett / skjermen viser «FamilyBoard Recovery» | Pi-en finner ikke et kjent WiFi. Ferdig konfigurert Pi: følg [Flytte skjermen eller bytte WiFi](#flytte-skjermen-eller-bytte-wifi-ferdig-konfigurert-pi). Selvbygd Pi: sett WiFi i Raspberry Pi OS (WiFi-ikonet øverst til høyre), eller bruk nettverkskabel. |
+| Finner ikke **FamilyBoard-Setup-XXXX** på mobilen | Vent 2 minutter etter at Pi-en fikk strøm. Ta ut og sett i strømmen igjen hvis den sto på da WiFi-en forsvant. Selvbygde Pi-er har ikke oppsettsnettet. |
