@@ -11,7 +11,8 @@ FamilyBoard har to steder for innstillinger:
 4. Etter endringer: trykk den grønne **«Lagre og restart»** nederst.
 
 Innstillingsvinduet lukkes med X, Esc eller ved å klikke utenfor.
-Den blå knappen **«👤 Min konto»** øverst til høyre går til profilsiden.
+Den blå fanen **«👤 Min konto»** helt til høyre i fanelinjen (etter «Kalender») går til profilsiden.
+Vinduet kan flyttes ved å dra i den lille streken øverst. Dobbeltklikk på streken sentrerer det igjen.
 
 > Innstillinger gjøres på en enhet der du er logget inn (PC, mobil). Skjermer som bruker en
 > [visnings-URL](devices/display-urls.md) oppdateres automatisk.

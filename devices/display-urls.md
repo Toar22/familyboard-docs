@@ -9,7 +9,7 @@ https://familyboard.cloud/d/<din-kode>
 ```
 
 ## Opprette en visnings-URL
-1. Gå til **Profil** (knappen «👤 Min konto» i innstillingene, eller familyboard.cloud/profile).
+1. Gå til **Profil** (fanen «👤 Min konto» i innstillingene, eller familyboard.cloud/profile).
 2. Velg **🔗 URLer** i menyen.
 3. Trykk **«+ Legg til visnings-URL»**.
 4. Gi skjermen et navn, for eksempel *Kjøkken*.
