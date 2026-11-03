@@ -11,7 +11,8 @@ FamilyBoard har to steder for innstillinger:
 4. Etter endringer: trykk den grønne **«Lagre og restart»** nederst.
 
 Innstillingsvinduet lukkes med X, Esc eller ved å klikke utenfor.
-Lenken **«Min konto →»** øverst til høyre går til profilsiden.
+Den blå fanen **«👤 Min konto»** helt til høyre i fanelinjen (etter «Kalender») går til profilsiden.
+Vinduet kan flyttes ved å dra i den lille streken øverst. Dobbeltklikk på streken sentrerer det igjen.
 
 > Innstillinger gjøres på en enhet der du er logget inn (PC, mobil). Skjermer som bruker en
 > [visnings-URL](devices/display-urls.md) oppdateres automatisk.
@@ -28,6 +29,7 @@ Lenken **«Min konto →»** øverst til høyre går til profilsiden.
 
 ### Sted og lokasjon
 Velg sted fra listen eller **«🗺️ Velg fra kart»** → klikk på kartet → **«💾 Lagre valgt sted»**.
+I Oslo kan du velge bydel (f.eks. «Oslo – Frogner»). Klikker du på kartet i Oslo, velges bydelen automatisk.
 Brukes til vær (Yr) og soloppgang/solnedgang.
 
 ### Widgeter
@@ -35,6 +37,9 @@ Brukes til vær (Yr) og soloppgang/solnedgang.
   Tips: Velg holdeplasser uten tog og horisontal tavlevisning.
 - Av/på-brytere: **Vis klokke**, **Vis YR** (vær), **Vis klesråd**, **Vis sted** (hvor bildet er tatt),
   **Vis tidspunkt / år-måned**, **Vis fremdriftslinje for bildebytte**, **Vis meldinger på skjermen**, **Fullskjerm bilde**
+- Ved **Vis YR** velger du visning: **«Yr-kort (standard)»**, **«Nå + neste 12 timer»**, **«Temperaturkurve»**,
+  **«Regn neste 90 min»**, **«Resten av døgnet»**, **«Nå + oppsummering»** eller **«Dobbel høyde»**.
+  Nye kontoer starter med **«Nå + neste 12 timer»**.
 - **Egen widget 1–5 (beta):** vis en ekstern nettside (iframe) eller data fra et API i en egen boks
 - Enkelte widgeter krever betalt plan. Se [plans-and-billing.md](plans-and-billing.md).
 
@@ -72,4 +77,4 @@ Menyen til venstre:
 - **🔗 URLer:** visnings-URL-er for skjermer. Se [devices/display-urls.md](devices/display-urls.md).
 - **⚠️ Konto:** sletting av konto (gjøres foreløpig via support). Se [faq.md](faq.md).
 
-Øverst: **«← Dashboard»**, **«📺 Visningsguide»**, **«Logg ut»**.
+Øverst: den blå knappen **«← Tilbake til dashboardet»**, **«📺 Visningsguide»** og **«Logg ut»**.
