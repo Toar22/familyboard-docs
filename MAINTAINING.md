@@ -35,4 +35,4 @@ Etter større endringer kan du lime inn lenken til `llms.txt` i ChatGPT/Claude o
 Sjekk at svaret følger dokumentasjonen.
 
 ---
-Sist gjennomgått mot appen: **oktober 2026 (v5.22)**
+Sist gjennomgått mot appen: **november 2026 (v5.22)**
