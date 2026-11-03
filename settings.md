@@ -29,6 +29,7 @@ Vinduet kan flyttes ved å dra i den lille streken øverst. Dobbeltklikk på str
 
 ### Sted og lokasjon
 Velg sted fra listen eller **«🗺️ Velg fra kart»** → klikk på kartet → **«💾 Lagre valgt sted»**.
+I Oslo kan du velge bydel (f.eks. «Oslo – Frogner»). Klikker du på kartet i Oslo, velges bydelen automatisk.
 Brukes til vær (Yr) og soloppgang/solnedgang.
 
 ### Widgeter
