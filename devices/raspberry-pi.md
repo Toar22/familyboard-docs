@@ -36,6 +36,23 @@ Du trenger:
 - HDMI-kabel og skjerm/TV
 - En [visnings-URL](display-urls.md) fra profilsiden
 
+### Enklest: FamilyBoard-installeren
+Installeren setter opp alt automatisk: fullskjerm, oppstart, oppsettsnett for nytt WiFi
+og nattlig omstart. Den krever ingen GitHub-konto. Følg steg 1 under (installer OS med
+SSH og WiFi), logg inn på Pi-en og kjør:
+
+```bash
+sudo apt-get install -y git
+git clone https://github.com/Toar22/familyboard-edge.git ~/familyboard-edge
+cd ~/familyboard-edge
+sudo KIOSK_URL="https://familyboard.cloud/d/DIN-KODE" bash install_thin_pi.sh
+sudo reboot
+```
+
+Mer om oppdatering, Google-kalender og nytt WiFi står i
+[installerens veiledning](https://github.com/Toar22/familyboard-edge#readme).
+Vil du heller gjøre det for hånd, følg stegene under.
+
 ### Steg 1 – Installer Raspberry Pi OS
 1. Last ned **Raspberry Pi Imager** på PC/Mac (raspberrypi.com/software).
 2. Velg *Raspberry Pi 4*, **Raspberry Pi OS (64-bit)** med skrivebord, og minnekortet.
