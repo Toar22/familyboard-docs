@@ -45,6 +45,9 @@ ikke passer. Se [best-practices.md](best-practices.md).
 - **Ferdig konfigurert Pi flyttet til nytt hjem / nytt WiFi:** brukeren trenger verken tastatur eller
   teknisk hjelp. Pi-en lager et eget oppsettsnett, **FamilyBoard-Setup-XXXX**, som settes opp fra mobilen.
   Følg [devices/raspberry-pi.md – Flytte skjermen](devices/raspberry-pi.md#flytte-skjermen-eller-bytte-wifi-ferdig-konfigurert-pi).
+- **Sette opp en Raspberry Pi selv:** anbefal FamilyBoard-installeren
+  ([github.com/Toar22/familyboard-edge](https://github.com/Toar22/familyboard-edge)) – én kommando,
+  ingen GitHub-konto. Se [devices/raspberry-pi.md](devices/raspberry-pi.md#enklest-familyboard-installeren).
 - **FamilyBoard er ikke backup.** Minn brukeren på å beholde originalene.
 
 ## Hva du IKKE skal gjøre
