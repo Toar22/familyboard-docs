@@ -42,12 +42,14 @@ og nattlig omstart. Den krever ingen GitHub-konto. Følg steg 1 under (installer
 SSH og WiFi), logg inn på Pi-en og kjør:
 
 ```bash
-sudo apt-get install -y git
-git clone https://github.com/Toar22/familyboard-edge.git ~/familyboard-edge
-cd ~/familyboard-edge
-sudo KIOSK_URL="https://familyboard.cloud/d/DIN-KODE" bash install_thin_pi.sh
-sudo reboot
+curl -fsSL https://raw.githubusercontent.com/Toar22/familyboard-edge/main/install.sh | sudo bash
 ```
+
+Installeren spør etter visnings-URL-en (lim inn hele lenken eller bare koden etter `/d/`),
+sjekker at den virker, og spør til slutt om Pi-en skal starte på nytt.
+
+**Privat Google-kalender:** koble mus og tastatur til Pi-en, åpne kalenderoverlayet på
+skjermen («vis kalender») og logg inn på Google derfra. Innloggingen huskes etter omstart.
 
 Mer om oppdatering, Google-kalender og nytt WiFi står i
 [installerens veiledning](https://github.com/Toar22/familyboard-edge#readme).
@@ -70,6 +72,8 @@ Velg **Display Options → Screen Blanking → No**, og avslutt med *Finish*.
 
 ### Steg 3 – Logg inn i Google i Chromium (hvis kalenderen er privat)
 Åpne Chromium på Pi-en én gang, og logg inn på Google-kontoen som har tilgang til familiekalenderen.
+Bruker du FamilyBoard-installeren: åpne kalenderoverlayet på skjermen («vis kalender») med mus
+og tastatur, og logg inn derfra.
 Det gjør at en privat Google-kalender vises på skjermen. Se [troubleshooting.md – Kalender](../troubleshooting.md#kalenderen-vises-ikke--er-tom).
 
 ### Steg 4 – Start FamilyBoard automatisk i fullskjerm
