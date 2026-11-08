@@ -47,12 +47,18 @@ Brukes til vær (Yr) og soloppgang/solnedgang.
 Egne fargeprofiler for bakgrunn, klokke, vær, kalender, rammer m.m., og eget bakgrunnsbilde (maks ca. 8 MB).
 Standardprofilen kan ikke endres. Lag en ny profil for å tilpasse.
 
-**Ferdige design:** Under «Ferdige design» i Design-fanen kan du velge **Studio**, **Familieplanlegger**,
-**Galleri**, **Kjøkken**, **Nordlys** eller **Bilderamme** og trykke **«Bruk design»**. «Studio» slår også av klesråd. Det lagres som en ny profil du kan
+**Ferdige design:** Under «Ferdige design» i Design-fanen kan du velge **Studio**, **Studio Kalender**,
+**Familieplanlegger**, **Galleri**, **Kjøkken**, **Nordlys** eller **Bilderamme** og trykke **«Bruk design»**.
+«Studio» og «Studio Kalender» slår også av klesråd. «Studio Kalender» har en høy kalender i hele høyre kolonne
+(fint hvis du har mange avtaler) og klokka oppe til høyre i bildet. Det lagres som en ny profil du kan
 justere videre i designmodus. Dine egne profiler endres ikke – velg en av dem og trykk «Aktiver» for å gå tilbake.
 
 **Widget-stil:** I fargeseksjonen kan du velge **«Kort med ramme»**. Klokke, vær, kalender og andre widgeter får da
 avrundede kort, og bildet får en uskarp utgave av seg selv som bakgrunn i stedet for svarte felt. Trykk «Lagre farger».
+
+**Klokke:** Velg **«Uten ramme – farge tilpasses bildet»** for å legge klokka rett på bildet. Fargen hentes fra
+bildet bak klokka: lys tekst på mørke bilder og mørk tekst på lyse, så den alltid er lett å lese. Flytt klokka dit du
+vil i designmodus, og trykk «Lagre farger».
 
 ### Kalender
 - **Størrelse:** X-large (ukesvisning, 100 % zoom), Large (med kollektivtavler), Medium, Small
