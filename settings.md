@@ -49,7 +49,7 @@ Standardprofilen kan ikke endres. Lag en ny profil for å tilpasse.
 
 **Ferdige design:** Under «Ferdige design» i Design-fanen kan du velge **Studio**, **Studio Kalender**,
 **Familieplanlegger**, **Galleri**, **Kjøkken**, **Nordlys** eller **Bilderamme** og trykke **«Bruk design»**.
-«Studio» og «Studio Kalender» slår også av klesråd. «Studio Kalender» har en høy kalender i hele høyre kolonne
+«Studio» og «Studio Kalender» slår også av klesråd. «Studio Kalender» har et større bilde og en høy kalender i hele høyre kolonne
 (fint hvis du har mange avtaler) og klokka oppe til høyre i bildet. Det lagres som en ny profil du kan
 justere videre i designmodus. Dine egne profiler endres ikke – velg en av dem og trykk «Aktiver» for å gå tilbake.
 
