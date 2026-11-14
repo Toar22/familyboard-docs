@@ -72,7 +72,8 @@ vil i designmodus, og trykk «Lagre farger».
 - **«Outlook / Apple / iCal»:** legg inn kalendere fra Outlook, Apple (iCloud) eller andre med en
   iCal-lenke (`https://…` eller `webcal://…`), med navn og farge. Når minst én lenke er lagt inn, viser
   FamilyBoard disse avtalene i sin egen agenda i stedet for Google-kalenderen, og skjermen trenger ingen
-  innlogging. Hvor du finner lenken:
+  innlogging. Velg **Oversikt**, **Uke** (i dag og seks dager fram) eller **Måned** i samme vindu
+  eller med Oversikt/Uke/Måned-knappene. Hvor du finner lenken:
   - **Outlook:** outlook.com → ⚙️ Innstillinger → Kalender → Delte kalendere → «Publiser en kalender» →
     «Kan vise alle detaljer» → kopier ICS-lenken.
   - **Apple/iCloud:** Kalender-appen → del kalenderen → slå på «Offentlig kalender» → kopier lenken.
