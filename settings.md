@@ -69,6 +69,17 @@ vil i designmodus, og trykk «Lagre farger».
 - **Visning:** Oversikt / Uke / Måned
 - **Fullskjerm kalender**
 - **«Angi kalender-URL»:** lim inn embed-lenke fra Google Kalender. «i»-knappen viser hvilken URL som er lagret.
+- **«Outlook / Apple / iCal»:** legg inn kalendere fra Outlook, Apple (iCloud) eller andre med en
+  iCal-lenke (`https://…` eller `webcal://…`), med navn og farge. Når minst én lenke er lagt inn, viser
+  FamilyBoard disse avtalene i sin egen agenda i stedet for Google-kalenderen, og skjermen trenger ingen
+  innlogging. Hvor du finner lenken:
+  - **Outlook:** outlook.com → ⚙️ Innstillinger → Kalender → Delte kalendere → «Publiser en kalender» →
+    «Kan vise alle detaljer» → kopier ICS-lenken.
+  - **Apple/iCloud:** Kalender-appen → del kalenderen → slå på «Offentlig kalender» → kopier lenken.
+  - **Google** (hvis du vil ha alt i samme agenda): kalenderens innstillinger → «Hemmelig adresse i iCal-format».
+
+  Hvorfor: Googles innebygde kalender viser ikke kalendere du har lagt til i Google «Fra URL» (for eksempel en
+  Outlook-kalender). Da vises bare helligdager eller meldingen om manglende tillatelse.
 
 **Slik får du en pen kalender** (se [best-practices.md – anbefalte innstillinger](best-practices.md#1c-vis-alle-kalenderne-samlet-i-familyboard--våre-anbefalte-innstillinger)):
 1. Google Kalender (på PC) → Innstillinger → velg kalender → **«Integrer kalender»** → **«Tilpass»**.
